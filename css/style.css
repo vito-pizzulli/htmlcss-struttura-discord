@@ -26,6 +26,16 @@ aside {
     align-items: center;
 }
 
+.justify-space-between-align-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-center-align-end {
+    justify-content: center;
+    align-items: end;
+}
+
 .row-reverse {
     flex-direction: row-reverse;
 }
@@ -53,12 +63,18 @@ nav.header-navbar {
     background-color: #add8e6;
 }
 
-nav.login {
+footer>div:first-of-type {
+    border-bottom: 3px solid #d3d3d3;
+}
+
+.header-navbar .login {
     text-align: right;
 }
 
-footer>div:first-of-type {
-    border-bottom: 3px solid #d3d3d3;
+.logo, .button {
+    background-color: #ffb6c1;
+    border-color: white;
+    padding: .2rem .5rem;
 }
 
 .width-70 {
@@ -109,6 +125,10 @@ footer>div:first-of-type {
 
 .height-60-px {
     height: 60px;
+}
+
+.height-50-px {
+    height: 50px;
 }
 
 .dashed-border {
