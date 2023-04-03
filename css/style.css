@@ -68,6 +68,10 @@ footer>div:first-of-type {
     border-bottom: 3px solid #d3d3d3;
 }
 
+.footer-head {
+    padding-top: 1rem;
+}
+
 .header-navbar .login {
     text-align: right;
 }
