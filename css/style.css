@@ -53,24 +53,33 @@ nav.login {
     text-align: right;
 }
 
+footer div:first-of-type {
+    border-bottom: 3px solid #d3d3d3;
+}
+
 .width-70 {
     width: 70%;
+    max-width: 1344px;
 }
 
 .width-50 {
     width: 50%;
+    max-width: 960px;
 }
 
 .width-40 {
     width: 40%;
+    max-width: 768px;
 }
 
 .width-30 {
     width: 30%;
+    max-width: 576px;
 }
 
 .width-15 {
     width: 15%;
+    max-width: 288px;
 }
 
 .height-900-px {
@@ -115,4 +124,8 @@ nav.login {
 
 .bg-green {
     background-color: #228b22;
+}
+
+.bg-black {
+    background-color: #23272a;
 }
