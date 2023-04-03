@@ -21,18 +21,19 @@ aside {
     display: flex;
 }
 
-.justify-align-center {
+.justify-center {
     justify-content: center;
+}
+
+.align-center {
     align-items: center;
 }
 
-.justify-space-between-align-center {
+.justify-space-between {
     justify-content: space-between;
-    align-items: center;
 }
 
-.justify-center-align-end {
-    justify-content: center;
+.align-end {
     align-items: end;
 }
 
