@@ -41,20 +41,16 @@ aside {
     padding: 0 .5rem;
 }
 
-.link-list {
+ul.link-list {
     justify-content: center;
 }
 
-.navbar-box {
+div.navbar-box {
     background-color: #add8e6;
 }
 
-.login {
+nav.login {
     text-align: right;
-}
-
-.container {
-    height: 500px;
 }
 
 .width-70 {
@@ -77,8 +73,16 @@ aside {
     width: 15%;
 }
 
+.height-900-px {
+    height: 900px;
+}
+
 .height-800-px {
     height: 800px;
+}
+
+.height-500-px {
+    height: 500px;
 }
 
 .height-400-px {
@@ -107,4 +111,8 @@ aside {
 
 .bg-pink {
     background-color: #ee82ee;
+}
+
+.bg-green {
+    background-color: #228b22;
 }
