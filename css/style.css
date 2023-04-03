@@ -1,6 +1,47 @@
 /* RESET */
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 .5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar-box nav {
+    background-color: #daa520;
+    height: 40px;
+    border: 1px dotted black;
+    padding: .6rem;
+}
+
+.navbar-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-large-section {
+    width: 40%;
+}
+
+.link-list {
+    justify-content: center;
+}
+
+.navbar-small-section {
+    width: 15%;
+}
+
+.height-60-px {
+    height: 60px;
+}
+
+.navbar-box {
+    background-color: #add8e6;
 }
