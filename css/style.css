@@ -57,8 +57,8 @@ aside {
     height: 500px;
 }
 
-.pink-container {
-    background-color: #ee82ee;
+.width-70 {
+    width: 70%;
 }
 
 .width-50 {
@@ -77,6 +77,10 @@ aside {
     width: 15%;
 }
 
+.height-800-px {
+    height: 800px;
+}
+
 .height-400-px {
     height: 400px;
 }
@@ -85,18 +89,22 @@ aside {
     height: 60px;
 }
 
-.black-dotted-border {
+.black-dashed-border {
     border: 2px dashed black;
 }
 
-.background-white {
+.bg-white {
     background-color: white;
 }
 
-.background-dark-blue {
+.bg-dark-blue {
     background-color: #00008b;
 }
 
-.background-light-grey {
+.bg-light-grey {
     background-color: #d3d3d3;
+}
+
+.bg-pink {
+    background-color: #ee82ee;
 }
