@@ -26,6 +26,10 @@ aside {
     align-items: center;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .navbar-box nav {
     background-color: #daa520;
     height: 40px;
